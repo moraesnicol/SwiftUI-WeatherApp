@@ -12,7 +12,7 @@
 
 /* Begin PBXFileReference section */
 		ED29064E2E047C2C00B49E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDB1C4402DFCB13E00B5B3A5 /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB1C4402DFCB13E00B5B3A5 /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "SwiftUI-Weather.app"; path = "/Users/moraes/Downloads/Gabriel Projects/Learning folder/SwiftUI-Weather/build/Debug-iphoneos/SwiftUI-Weather.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -39,16 +39,7 @@
 			children = (
 				ED29064E2E047C2C00B49E43 /* Assets.xcassets */,
 				EDB1C4422DFCB13E00B5B3A5 /* SwiftUI-Weather */,
-				EDB1C4412DFCB13E00B5B3A5 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		EDB1C4412DFCB13E00B5B3A5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EDB1C4402DFCB13E00B5B3A5 /* SwiftUI-Weather.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,7 +92,7 @@
 			mainGroup = EDB1C4372DFCB13E00B5B3A5;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = EDB1C4412DFCB13E00B5B3A5 /* Products */;
+			productRefGroup = EDB1C4372DFCB13E00B5B3A5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

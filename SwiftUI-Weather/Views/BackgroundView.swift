@@ -9,13 +9,15 @@ import SwiftUI
 
 struct BackgroundView: View {
     
-    var topColor: Color = .blue
-    var bottomColor: Color = .lightBlue
+    @Binding var isNight: Bool
+    
     
     var body: some View {
         LinearGradient(
-            gradient: Gradient(colors: [topColor, bottomColor]),
-            startPoint: .topLeading, endPoint: .bottomTrailing)
+            gradient: Gradient(colors: [isNight ? .black : .blue,
+                                    isNight ? .gray : Color(.lightBlue)]),
+            startPoint: .topLeading,
+            endPoint: .bottomTrailing)
         .edgesIgnoringSafeArea(.all)
     }
 }
