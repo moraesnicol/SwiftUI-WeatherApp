@@ -14,7 +14,7 @@ struct MainView: View {
     
     var body: some View {
         ZStack {
-            BackgroundView(isNight: $isNight)
+            BackgroundView(isNight: isNight)
             VStack {
                 MainWeatherDayView(imageName: isNight ? "moon.stars.fill" : "cloud.sun.fill", temperature: isNight ? 21 : 33)
                     .padding(.bottom, 40)

@@ -12,7 +12,7 @@
 
 /* Begin PBXFileReference section */
 		ED29064E2E047C2C00B49E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EDB1C4402DFCB13E00B5B3A5 /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "SwiftUI-Weather.app"; path = "/Users/moraes/Downloads/Gabriel Projects/Learning folder/SwiftUI-Weather/build/Debug-iphoneos/SwiftUI-Weather.app"; sourceTree = "<absolute>"; };
+		ED58FE6B2E06392800C29430 /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "SwiftUI-Weather.app"; path = "/Users/moraes/Downloads/Gabriel Projects/Learning folder/SwiftUI-Weather/build/Debug-iphoneos/SwiftUI-Weather.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -64,7 +64,7 @@
 			packageProductDependencies = (
 			);
 			productName = "SwiftUI-Weather";
-			productReference = EDB1C4402DFCB13E00B5B3A5 /* SwiftUI-Weather.app */;
+			productReference = ED58FE6B2E06392800C29430 /* SwiftUI-Weather.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
